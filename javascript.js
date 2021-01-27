@@ -129,7 +129,7 @@ function quantityPlus(id) {
 function quantityMinus(id) {
     const minusValue = document.getElementById(id).value
     const minusValueNumber = parseInt(minusValue);
-    if (minusValue > 0) {
+    if (minusValue > 1) {
         const result = minusValueNumber - 1;
         document.getElementById(id).value = result;
     }
